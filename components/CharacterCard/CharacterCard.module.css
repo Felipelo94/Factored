@@ -1,0 +1,53 @@
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #313234;
+  width: 300px;
+  height: 380px;
+  border-radius: 12px;
+  border: 1px solid black;
+  font-family: Inter;
+  color: white;
+  box-shadow: 0px 2px 20px #cfd8dc;
+  transition: transform 200ms ease-in;
+  padding-bottom: 10px;
+}
+.cardContainer:hover {
+  transform: scale(1.02);
+}
+
+.cardImg {
+  border-radius: 12px;
+  object-fit: fill;
+}
+.character {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 5px;
+}
+
+.statusText {
+  padding: 0;
+  margin: 0;
+}

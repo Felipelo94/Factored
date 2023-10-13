@@ -1,0 +1,25 @@
+.locationCardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  width: 250px;
+  height: 150px;
+  background-color: #1a1a1a;
+  border-radius: 16px;
+  padding: 20px 0;
+  box-shadow: 0px 2px 20px #cfd8dc;
+  transition: transform 200ms ease-in;
+}
+
+.locationCardContainer:hover {
+  transform: scale(1.02);
+}
+
+.icon {
+  filter: invert(100%) sepia(0%) saturate(33%) hue-rotate(73deg)
+    brightness(107%) contrast(107%);
+}

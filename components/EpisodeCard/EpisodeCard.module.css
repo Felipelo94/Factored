@@ -1,0 +1,25 @@
+.episodeCardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 250px;
+  height: 120px;
+  background-color: #1a1a1a;
+  color: white;
+  border-radius: 16px;
+  padding: 20px 0;
+
+  box-shadow: 0px 2px 20px #cfd8dc;
+  transition: transform 200ms ease-in;
+}
+
+.episodeCardContainer:hover {
+  transform: scale(1.02);
+}
+
+.cardText {
+  text-align: center;
+  padding: 5px;
+  font-weight: 500;
+}
