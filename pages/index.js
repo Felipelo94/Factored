@@ -36,7 +36,7 @@ export default function Home() {
           </li>
           <li>
             <span className={styles.textStrong}>Discover Episodes:</span>
-            Immerse yourself in Rick and Morty's interdimensional escapades
+            Immerse yourself in Rick and Mortys interdimensional escapades
             through a wide selection of episodes.
           </li>
           <li>

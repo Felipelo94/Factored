@@ -80,11 +80,7 @@ const Episodes = () => {
           <h2>There is no data related to the search</h2>
         )}
       </div>
-      <div className={styles.cardsContainer}>
-        {data?.results?.map((episode, index) => (
-          <EpisodeCard key={index} episode={episode} />
-        ))}
-      </div>
+
       <div className={styles.btnContainer}>
         {data?.info?.prev !== null && !isFilter ? (
           <button
