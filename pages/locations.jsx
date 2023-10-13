@@ -46,7 +46,6 @@ const Locations = () => {
       () => setFilteredData([]);
     }
   };
-  console.log(isFilter);
 
   return (
     <Layout>

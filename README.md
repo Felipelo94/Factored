@@ -1,34 +1,109 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Rick and Morty Next.js App
 
-## Getting Started
+This is a web application project developed with Next.js v13 that connects to the Rick and Morty API. The application has four main pages: Home, Character, Episodes, and Locations.
 
-First, run the development server:
+### Prerequisites
+
+Before you begin, make sure you have Node.js and npm installed on your system.
+
+### Project Setup
+
+1. **Clone the Repository**
+
+   ```bash
+   git clone https://github.com/Felipelo94/Factored.git
+   cd rick-and-morty-app
+   ```
+
+2. **Install Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+`
+
+### Running the Project
+
+To run the application in development mode, use the following command:
 
 ```bash
 npm run dev
-# or
-yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This will start the development server at [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Project Structure
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+- **`/pages`**: Contains the application pages.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+  - **`index.js`**: Home page.
+  - **`character.js`**: Character details page.
+  - **`episodes.js`**: Episodes page.
+  - **`locations.js`**: Locations page.
 
-## Learn More
+- **`/components`**: Contains reusable components used throughout the application.
 
-To learn more about Next.js, take a look at the following resources:
+- **`/assets`**: Contains the images and SVG used in the app.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **`/styles`**: Style files for the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Additional Resources
 
-## Deploy on Vercel
+- **Next.js Documentation**: [https://nextjs.org/docs](https://nextjs.org/docs)
+- **Rick and Morty API Documentation**: [https://rickandmortyapi.com/documentation](https://rickandmortyapi.com/documentation)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### Aplicación Next.js de Rick and Morty
+
+Este es un proyecto de aplicación web desarrollado con Next.js v13 que se conecta a la API de Rick and Morty. La aplicación tiene cuatro páginas principales: Home, Character, Episodes y Locations.
+
+### Requisitos previos
+
+Antes de comenzar, asegúrese de tener Node.js y npm instalados en su sistema.
+
+### Configuración del Proyecto
+
+1. **Clonar el Repositorio**
+
+   ```bash
+   git clone https://github.com/Felipelo94/Factored.git
+   cd rick-and-morty-app
+   ```
+
+2. **Instalar Dependencias**
+
+   ```bash
+   npm install
+   ```
+
+### Ejecución del Proyecto
+
+Para ejecutar la aplicación en modo de desarrollo, utiliza el siguiente comando:
+
+```bash
+npm run dev
+```
+
+Esto iniciará el servidor de desarrollo en [http://localhost:3000](http://localhost:3000).
+
+### Estructura del Proyecto
+
+- **`/pages`**: Contiene las páginas de la aplicación.
+
+  - **`index.js`**: Página de inicio (Home).
+  - **`character.js`**: Página de detalles de personajes (Character).
+  - **`episodes.js`**: Página de episodios (Episodes).
+  - **`locations.js`**: Página de ubicaciones (Locations).
+
+- **`/components`**: Contiene componentes reutilizables utilizados en varias partes de la aplicación.
+
+- **`/assets`**: Contiene las imágenes y SVG usadas en la aplicación.
+
+- **`/styles`**: Archivos de estilo para la aplicación.
+
+### Recursos Adicionales
+
+- **Documentación de Next.js**: [https://nextjs.org/docs](https://nextjs.org/docs)
+- **Documentación de la API de Rick and Morty**: [https://rickandmortyapi.com/documentation](https://rickandmortyapi.com/documentation)
